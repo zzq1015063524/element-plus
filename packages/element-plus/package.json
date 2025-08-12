@@ -1,5 +1,5 @@
 {
-  "name": "element-plus",
+  "name": "@zzq-monorepo/plus",
   "version": "0.0.0-dev.1",
   "description": "A Component Library for Vue 3",
   "keywords": [
@@ -86,6 +86,7 @@
     "@popperjs/core": "npm:@sxzz/popperjs-es@^2.11.7",
     "@types/lodash": "^4.14.182",
     "@types/lodash-es": "^4.17.6",
+    "@vee-validate/zod": "^4.12.6",
     "@vueuse/core": "^9.1.0",
     "async-validator": "^4.2.5",
     "dayjs": "^1.11.3",
@@ -94,11 +95,14 @@
     "lodash-es": "^4.17.21",
     "lodash-unified": "^1.0.2",
     "memoize-one": "^6.0.0",
-    "normalize-wheel-es": "^1.2.0"
+    "normalize-wheel-es": "^1.2.0",
+    "vee-validate": "^4.12.6",
+    "zod": "^3.23.8"
   },
   "devDependencies": {
     "@types/node": "*",
     "csstype": "^2.6.20",
+    "tsx": "^4.20.3",
     "vue": "^3.2.37",
     "vue-router": "^4.0.16"
   },
