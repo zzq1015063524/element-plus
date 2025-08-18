@@ -35,12 +35,20 @@ export default defineConfig(async ({ mode }) => {
     },
     resolve: {
       alias: [
+        // {
+        //   find: /^element-plus(\/(es|lib))?$/,
+        //   replacement: path.resolve(epRoot, 'index.ts'),
+        // },
+        // {
+        //   find: /^element-plus\/(es|lib)\/(.*)$/,
+        //   replacement: `${pkgRoot}/$2`,
+        // },
         {
-          find: /^element-plus(\/(es|lib))?$/,
+          find: /^@zzq-monorepo(\/(es|lib))?$/,
           replacement: path.resolve(epRoot, 'index.ts'),
         },
         {
-          find: /^element-plus\/(es|lib)\/(.*)$/,
+          find: /^@zzq-monorepo\/(es|lib)\/(.*)$/,
           replacement: `${pkgRoot}/$2`,
         },
       ],
